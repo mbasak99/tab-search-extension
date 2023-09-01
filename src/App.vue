@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <div>test</div>
+  <div class="bg-red-900 text-xl text-bold">test</div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
