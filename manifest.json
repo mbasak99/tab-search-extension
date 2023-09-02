@@ -1,6 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Tab Searcher",
+  "description": "A very basic extension that searches the user's currently opened tabs to retrieve the tab matching the user's search query.",
   "version": "1.0",
   "icons": {
     "16": "/public/images/search-icon-16.png",
@@ -8,9 +9,9 @@
     "48": "/public/images/search-icon-48.png",
     "128": "/public/images/search-icon-128.png"
   },
-  "action": {
+  "browser_action": {
     "default_popup": "index.html",
     "default_title": "Tab Searcher"
   },
-  "host_permissions": ["https://developer.chrome.com/*"]
+  "host_permissions": ["https://developer.chrome.com/*", "tabs", "http://*/*", "https://*/*"]
 }
